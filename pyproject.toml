@@ -2,7 +2,7 @@
 name = "mlops"
 version = "0.1.0"
 description = "mlops"
-authors = ["Marcos Prochnow <marcos.kbal@gmail.com>"]
+authors = ["Marcos Prochnow <marcosprochno@gmail.com>"]
 license = "MIT"
 readme = "README.md"
 packages = []
@@ -15,6 +15,9 @@ seaborn = ">=0.13.2,<0.14.0"
 pandas = ">=2.2.3,<3.0.0"
 scikit-learn = ">=1.6.1,<2.0.0"
 gunicorn = ">=23.0.0,<24.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.4"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
